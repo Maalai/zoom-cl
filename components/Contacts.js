@@ -37,7 +37,7 @@ const Contacts = () => {
                         )
                     }
 
-                    <Text style={styles.text}>Starred</Text>
+                    <Text style={styles.text}>{contact.title}</Text>
                 </View>
             )
         }
